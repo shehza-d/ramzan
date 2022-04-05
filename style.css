@@ -1,6 +1,7 @@
 h1 {
 	text-align: center;
 	margin-top: 35px;
+	text-shadow: 2px 2px 7px #18f152;
 }
 body {
 	background-image: url("./img/277047446_668173987812010_7123521842166753315_n.jpg");
@@ -10,4 +11,18 @@ body {
 .tt {border: 20px rgb(0, 255, 8);
       margin-left: auto;
 	  margin-right: auto;
+	  width: 70%;
+	  background-color: rgba(31, 221, 246, 0.2);
+}
+.tt th {
+	height: 30px;
+	text-shadow: 3px 3px 7px #18f152;
+	background-color: rgba(255, 255, 255, 0.25);
+}
+.tt td {
+	text-align: center;
+	padding: 2px;
+}
+.tt tr:hover {
+	background-color: yellow;
 }
